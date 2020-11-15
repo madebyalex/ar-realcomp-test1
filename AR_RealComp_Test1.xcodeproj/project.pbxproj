@@ -13,6 +13,7 @@
 		11FB398C25615DD000D72C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FB398A25615DD000D72C71 /* Main.storyboard */; };
 		11FB398E25615DD300D72C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FB398D25615DD300D72C71 /* Assets.xcassets */; };
 		11FB399125615DD300D72C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FB398F25615DD300D72C71 /* LaunchScreen.storyboard */; };
+		11FB399B2561635C00D72C71 /* Hexagon.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 11FB399A2561635B00D72C71 /* Hexagon.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		11FB398D25615DD300D72C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11FB399025615DD300D72C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11FB399225615DD300D72C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FB399A2561635B00D72C71 /* Hexagon.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Hexagon.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		11FB398325615DD000D72C71 /* AR_RealComp_Test1 */ = {
 			isa = PBXGroup;
 			children = (
+				11FB399A2561635B00D72C71 /* Hexagon.rcproject */,
 				11FB398425615DD000D72C71 /* AppDelegate.swift */,
 				11FB398625615DD000D72C71 /* ViewController.swift */,
 				11FB398825615DD000D72C71 /* Experience.rcproject */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11FB398725615DD000D72C71 /* ViewController.swift in Sources */,
+				11FB399B2561635C00D72C71 /* Hexagon.rcproject in Sources */,
 				11FB398525615DD000D72C71 /* AppDelegate.swift in Sources */,
 				11FB398925615DD000D72C71 /* Experience.rcproject in Sources */,
 			);
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZN234ZPN46;
 				INFOPLIST_FILE = AR_RealComp_Test1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZN234ZPN46;
 				INFOPLIST_FILE = AR_RealComp_Test1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
