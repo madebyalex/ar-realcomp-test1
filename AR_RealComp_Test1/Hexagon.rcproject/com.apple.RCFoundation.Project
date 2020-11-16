@@ -7,8 +7,8 @@
             {
               "arAnchorSpecification" : {
                 "name" : "image",
-                "physicalWidth" : 0.10000000149011612,
-                "url" : "image:915080d89390a3ebb88c02c5cb553c4e\/AR_Marker_02.png"
+                "physicalWidth" : 0.13952015340328217,
+                "url" : "image:6972be87d5a13f4757a15d10bc872c47\/Card_Biber.png"
               },
               "behaviors" : [
                 {
@@ -291,7 +291,7 @@
                           "diameter",
                           {
                             "typeName" : "Double",
-                            "value" : 0.055823679949225227
+                            "value" : 0.055823679949225213
                           }
                         ],
                         [

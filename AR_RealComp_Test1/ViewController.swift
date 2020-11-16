@@ -12,10 +12,10 @@ import ARKit
 import RealityKit
 
 class ARController: UIViewController {
-//    var arView = ARView(frame: .zero)
-    @IBOutlet var arView: ARView!
-    
-    
+    var arView = ARView(frame: .zero)
+//    @IBOutlet var arView: ARView!
+
+
     override func loadView() {
         super.loadView()
         view.addSubview(arView)
@@ -24,18 +24,21 @@ class ARController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         arView.frame = view.frame
-        
+
         Hexagon.loadSceneAsync {(result) in
             do {
                 let hexagonScene = try result.get()
                 self.arView.scene.addAnchor(hexagonScene)
 
+                print("Displaying AR model")
+
             } catch {
                 print(error)
+                print("Nothing to show")
             }
         }
     }
-    
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         let configuration = ARWorldTrackingConfiguration()
@@ -48,7 +51,8 @@ class ARController: UIViewController {
 //
 //class ViewController: UIViewController {
 //
-//    @IBOutlet var arView: ARView!
+////    @IBOutlet var arView: ARView!
+//    var arView = ARView(frame: .zero)
 //
 //    override func viewDidLoad() {
 //        super.viewDidLoad()
