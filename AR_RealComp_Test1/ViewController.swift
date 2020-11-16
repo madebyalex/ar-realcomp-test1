@@ -12,7 +12,9 @@ import ARKit
 import RealityKit
 
 class ARController: UIViewController {
-    var arView = ARView(frame: .zero)
+//    var arView = ARView(frame: .zero)
+    @IBOutlet var arView: ARView!
+    
     
     override func loadView() {
         super.loadView()
